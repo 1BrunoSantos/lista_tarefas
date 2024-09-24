@@ -10,19 +10,21 @@
 <body>
     <div class="container">
         <h1>Lista de Tarefas</h1>
-        <div class="lista">
-            <div class="linha">
-                <input type="text" id="input_box" placeholder="Adicionar Tarefa">
+        <div class="todo-app">
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Nova Tarefa">
+                <button id="add-btn">Adicionar</button>
             </div>
-            <ul class="conteudo_lista">
-                <li class="verificado">
+            <ul id="list-container">
+                <li class="checked">
                     Pedalar<span><i class="fa-solid fa-trash"></i></span>
                 </li>
-                <li class="verificado">
+                <li class="checked">
                     Estudar<span><i class="fa-solid fa-trash"></i></span>
                 </li>
             </ul>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
