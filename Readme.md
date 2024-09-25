@@ -31,6 +31,7 @@ Este é um projeto de **lista de tarefas** desenvolvido utilizando **HTML**, **C
     Pedalar<span><i class="fa-solid fa-trash"></i></span>
   </li>
 </ul>
+```
 
 Estilos Utilizados
 
